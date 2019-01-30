@@ -19,8 +19,8 @@ export default class HelloWorldApp extends Component {
   render() {
     return (
       <View>
-         <Text>Load (kg)</Text><TextInput style = {styles.input}
-            keyboardType = 'numeric' />
+         <Text>Load (kg) <TextInput style = {styles.input}
+            keyboardType = 'numeric' /></Text>
                 
 
         <Text>Empty (kg)<TextInput style = {styles.input}
